@@ -5,9 +5,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #img1 {
+            height: 200px;
+        }
+
+        .firstDiv {
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 
 <body>
+    <!-- For Task 1 -->
+
+    <p id="1stP">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, illum? Animi optio sint voluptatem
+        accusantium
+        eveniet tempora recusandae aspernatur? Libero nostrum minus fuga!</p>
+    <button id="myBtn">Click Here</button>
+
+    <!-- For Task 2 -->
+    <br>
+    <br>
+    <img src="rose.jpg" alt="" id="img1">
+    <br><br>
+
+    <!-- For Task 3 -->
+    <div class="firstDiv">
+        This is first Div
+    </div>
+
+    <br><br>
+
+    <!-- Keyboard Events -->
+    <!-- For Task 5 & 6 -->
+    <h3>Task 5,6 - Keyboard Events</h3>
+    <label for="textBox">Enter any thing here: </label>
+    <input type="text" id="textBox" value="">
+    <p id="output"></p>
+
+    <br>
+    <br>
+
+    <!-- Keyboard Events -->
+    <!-- For Task 5 & 6 -->
+    <h3>Task 7,8 - Form Events</h3>
+
+    <form>
+        <label for="ageInput">Enter your age: </label>
+        <input type="number" id="ageInput" value="">
+        <input type="submit" id="submitBtn">
+        <br>
+        <br>
+        <select name="" id="animeNames">
+            <option value="Attack on Titan">Attack on Titan</option>
+            <option value="Demon Slayer">Demon Slayer</option>
+            <option value="Tokyo Revengers">Tokyo Revengers</option>
+        </select>
+    </form>
+    <p id="errMsg"></p>
+    <p id="disp%layAnime"></p>
+
+    <br>
+    <br>
+
+    <!-- Event Delegation -->
+    <!-- For Task 5 & 6 -->
+
+    <ul>
+        <li>Ashutosh</li>
+        <li>Chaudhary</li>
+    </ul>
+
+    <div id="parent">
+    </div>
+    <button id="childBtn">Add Child Element</button>
     <script src="script.js"></script>
 </body>
 
