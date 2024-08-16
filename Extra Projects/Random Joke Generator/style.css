@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  background: url("https://wallpapers.com/images/hd/light-yagami-laugh-art-7fdq45hv7eodxlfx.jpg");
+  background-size: cover;
+  opacity: 0.7;
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  height: 40vh;
+  width: 40%;
+  opacity: 0.91;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #002d62;
+  margin-top: 10px;
+}
+
+#submitBtn {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #666666;
+  color: white;
+  font-size: 20px;
+  height: 39px;
+  width: 100px;
+}
+
+.setup {
+  font-size: larger;
+  text-align: center;
+}
+
+.delivery {
+  font-size: large;
+  text-align: center;
+}
